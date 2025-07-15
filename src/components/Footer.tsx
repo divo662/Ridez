@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-import ridezLogo from "@/assets/ridez logo.png";
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src={ridezLogo} alt="RIDEZ Logo" className="h-10 w-auto" />
+              <img src="/assets/ridez logo.png" alt="RIDEZ Logo" className="h-10 w-auto" />
               <span className="text-2xl font-bold text-primary hidden md:inline">RIDEZ</span>
             </div>
             <p className="text-muted-foreground">

@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-import serviceBike from "@/assets/service-bike.png";
 
 const ServicesSection = () => {
   const services = [
@@ -59,7 +58,7 @@ const ServicesSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-hero rounded-2xl opacity-20"></div>
             <img 
-              src={serviceBike} 
+              src="/assets/service-bike.png" 
               alt="Service Bike" 
               className="w-full h-auto object-contain relative z-10"
             />

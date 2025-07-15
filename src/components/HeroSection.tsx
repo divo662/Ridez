@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Play, Pause, ChevronLeft, ChevronRight } from "lucide-react";
-import heroBike from "@/assets/hero-bike.png";
 
 const HERO_SLIDES = [
   {
@@ -11,7 +10,7 @@ const HERO_SLIDES = [
     price: 1195,
     description: "High-end road carbon frame premium aluminum fork carbon, fork: the ideal bike for premium speed racetrack.",
     video: "https://media.istockphoto.com/id/1466459662/video/tracking-shot-cyclist-cycling-uphill-on-road-in-sunrise-mountains.mp4?s=mp4-640x640-is&k=20&c=MYNO9eAvvgFRYc2jp1ReL6lfNAS-fwcalUm94UJOOV4=",
-    poster: heroBike,
+    poster: "/assets/hero-bike.png",
   },
   {
     title: "Singletrack Speed",
@@ -20,7 +19,7 @@ const HERO_SLIDES = [
     price: 999,
     description: "Built for speed and agility on mountain trails. Lightweight, durable, and ready for adventure.",
     video: "https://videos.pexels.com/video-files/4147906/4147906-hd_1920_1080_25fps.mp4", // Viresh Studio Pexels
-    poster: heroBike,
+    poster: "/assets/hero-bike.png",
   },
   {
     title: "Trail Power",
@@ -29,7 +28,7 @@ const HERO_SLIDES = [
     price: 1299,
     description: "Perfect balance of power and control for trail riding. Conquer any terrain with confidence.",
     video: "https://videos.pexels.com/video-files/4957761/4957761-hd_1920_1080_25fps.mp4", // Tima Miroshnichenko Pexels
-    poster: heroBike,
+    poster: "/assets/hero-bike.png",
   },
 ];
 

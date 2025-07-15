@@ -1,28 +1,25 @@
 import { Button } from "@/components/ui/button";
-import singletrackBike from "@/assets/singletrack-bike.png";
-import trailPower from "@/assets/trail-power.png";
-import roadBike from "@/assets/road-bike.png";
 
 const CategoryCards = () => {
   const categories = [
     {
       title: "Singletrack Speed",
       subtitle: "Speed and aerodynamics",
-      image: singletrackBike,
+      image: "/assets/singletrack-bike.png",
       buttonText: "SHOP NOW",
       className: "bg-card"
     },
     {
       title: "Trail Power",
       subtitle: "Down riding, experience",
-      image: trailPower,
+      image: "/assets/trail-power.png",
       buttonText: "DISCOVER MORE",
       className: "bg-secondary"
     },
     {
       title: "Road Bikes",
       subtitle: "Comfort AF FAST",
-      image: roadBike,
+      image: "/assets/road-bike.png",
       buttonText: "SHOP NOW", 
       className: "bg-card"
     }

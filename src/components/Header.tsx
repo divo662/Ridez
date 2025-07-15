@@ -3,7 +3,6 @@ import { ShoppingCart, Search, User, Heart, Menu } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { useCart } from "@/contexts/CartContext";
 import { useState } from "react";
-import ridezLogo from "@/assets/ridez logo.png";
 
 const Header = () => {
   const { getCartItemsCount } = useCart();
@@ -28,7 +27,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src={ridezLogo} alt="RIDEZ Logo" className="h-10 w-auto" />
+            <img src="/assets/ridez logo.png" alt="RIDEZ Logo" className="h-10 w-auto" />
             <span className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors hidden md:inline">RIDEZ</span>
           </Link>
 

@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-import kidsBike from "@/assets/kids-bike.png";
-import cyclistAccessories from "@/assets/cyclist-accessories.png";
 
 const ProductSections = () => {
   return (
@@ -20,7 +18,7 @@ const ProductSections = () => {
             </div>
             <div className="absolute bottom-0 right-0 w-1/2">
               <img 
-                src={kidsBike} 
+                src="/assets/kids-bike.png" 
                 alt="Kids Bike"
                 className="w-full h-auto object-contain"
               />
@@ -40,7 +38,7 @@ const ProductSections = () => {
             </div>
             <div className="absolute bottom-0 right-0 w-1/2">
               <img 
-                src={cyclistAccessories} 
+                src="/assets/cyclist-accessories.png" 
                 alt="Cycling Accessories"
                 className="w-full h-auto object-contain"
               />
